@@ -1,3 +1,17 @@
+/*
+    Dijkstra's algorithm is a popular graph search algorithm used to determine the shortest path between two 
+    nodes in a graph. It is based on the principle of relaxation, where the algorithm repeatedly selects the 
+    node with the least tentative distance (the distance from the starting node to the current node) and updates 
+    the tentative distance of its neighbors. The algorithm terminates when the destination node is reached or when 
+    all nodes have been visited. It is often used in routing and navigation, as well as in other applications such 
+    as computer networks and operations research.
+
+    This implementation assumes that the graph is represented using an adjacency matrix, where graph[i][j] 
+    is the weight of the edge between vertex i and vertex j. If the edge doesn't exist, the value is set to 0.
+
+    It takes as input the adjacency matrix and the source vertex, and prints the shortest distance from
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
