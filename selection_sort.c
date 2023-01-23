@@ -1,17 +1,3 @@
-#include <stdio.h>
-
-void selection_sort(int arr[], int n);
-
-int main(){
-    int arr[7] = {6, 4, 8, 19, 18, 17, 11};
-    
-    selection_sort(arr, 7);
-    for(int i = 0; i<7; i++)
-        printf("%d ",arr[i]);
-    printf("\n");
-    return(0);
-}
-
 /*
     The function takes in an array arr and its size n as input. It iterates through the array, and in each iteration, 
     finds the index of the smallest element from the unsorted portion of the array. Then, it swaps the element at that 
