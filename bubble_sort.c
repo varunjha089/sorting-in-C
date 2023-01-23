@@ -6,6 +6,7 @@
     if they are in the wrong order. The outer loop ensures that the largest element "bubbles" to the end of 
     the array in each iteration.
 */
+void swap(int *, int *);
 
 void bubbleSort(int arr[], int n)
 {
