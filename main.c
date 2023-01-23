@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "selection_sort.c"
 #include "bubble_sort.c"
+#include "quick_sort.c"
 // void selection_sort(int arr[], int n);
 
 int main(){
@@ -10,6 +11,7 @@ int main(){
     printf("Please select one sorting algo\n");
     printf("1. Selection Sort\n");
     printf("2. Bubble Sort\n");
+    printf("3. Quick Sort\n");
 
     scanf("%d", &n);
 
@@ -23,6 +25,11 @@ int main(){
     case 2:
         printf("You have selected Bubble Sort\n");
         bubbleSort(arr, 7);
+        break;
+
+    case 3:
+        printf("You have selected Quick Sort\n");
+        quickSort(arr, 0, 6);
         break;
 
     default:

@@ -10,6 +10,9 @@
     code. Also, The pivot element selection is based on the last element of the array, but you can change 
     it to any other element like random element or middle element, it will change the performance of the algorithm.
 */
+
+void quickSort(int arr[], int low, int high);
+
 int partition (int arr[], int low, int high) {
     int pivot = arr[high];
     int i = (low - 1);
